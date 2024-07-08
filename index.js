@@ -27,4 +27,6 @@ function Testing(){
     return ;
 }
 Testing();
+function Test2(){return false;}
+Test2();
 StartServer();
