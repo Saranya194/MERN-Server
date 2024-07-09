@@ -8,6 +8,9 @@ const resolvers = {
     Query:{
         getUsers:async(_,{_id})=>{
             return await User.findById(_id);
+        },
+        getAllUsers:async()=>{
+            return await User.find()
         }
     },
     Mutation:{
